@@ -1,0 +1,42 @@
+section{
+     display: flex;
+}
+.half-width{
+     width: 90%;
+     padding-left: 5%
+}
+.half-width img{
+     width: 80%;
+}
+.boss{
+     border-radius: 4%;
+     text-decoration: none;     
+}
+h1{
+     font-size: 50px;
+}
+.container{
+     display: flex;
+     margin-top: 10%;
+     font-size: 20px;
+     text-align: center;
+     width: 20%;
+     justify-content: center;
+}
+.container .card{
+     display: flex;
+     margin: 5px;
+     margin-bottom: 10px;
+     width: 25px;
+     padding: 20px;
+     line-height: 20px;
+     color: bisque;
+     position: relative;
+}
+.card-image{
+     display: flex;
+     width: 100px;
+     height: 100px;
+     border: 50px;
+     position: absolute;
+}
